@@ -10,6 +10,7 @@
 
 .wrapper {
     width: 100%;
+    
 
 
 }
@@ -17,6 +18,7 @@
 .wrapper .container {
     max-width: 1280px;
     margin: 0px auto;
+    
 
 }
 
@@ -24,23 +26,24 @@
 
 
 .wrapper nav {
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
+   
     font-weight: 1000;
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;     
 
 }
 
 
 .wrapper nav a {
-    padding: 10px;
+    padding: 0 10px;
 }
 
-.search {
-    border-right: 1.5px solid #142f43;
+.search{
+   border-right: 1.5px solid black;
 }
-
 .wrapper .banner {
     background-size: cover;
     background-size: cover;
@@ -159,6 +162,7 @@
     position: absolute;
     
     
+    
 }
 
 .wrap-button{
@@ -171,6 +175,7 @@
 
 .wrap-button  a:hover{
     background-color: orange;
+    
 }
 
 .promotion{
@@ -180,6 +185,7 @@
     background: url(https://kinhmateyeplus.com/wp-content/uploads/2020/06/kinhmateyeplus-hot-deal.jpg); 
     background-size: cover;
     position: relative;
+    
    
     
   
@@ -230,7 +236,7 @@
     background-color: #ffffff;;
     border-radius: 4px;
     color: #4872fa;
-    font-size: 14px;
+  
   
 
 }
@@ -242,6 +248,7 @@
     border-radius: 0.4rem;
     cursor: pointer;    
     position: absolute;
+    font-size: 14px;
     
     
     
@@ -251,3 +258,37 @@
     background-color: orange;
 }
 
+.fusion {
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.fasion{
+    width: 50%;
+   
+    line-height: 30px;
+
+}
+
+.fasion h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1e2022;
+}
+    
+.icon{   
+    font-size: 12px;
+    line-height: 1.5rem;
+    
+}
+
+.seemore-buttton{
+    line-height: 40px;
+    padding: 0 30px;
+    background-color: #4872FA;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
