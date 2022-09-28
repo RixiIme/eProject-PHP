@@ -315,7 +315,12 @@ footer .container{
 }
 
 
-
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 footer .category {
     background: #222222;
